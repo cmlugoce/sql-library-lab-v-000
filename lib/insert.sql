@@ -1,7 +1,7 @@
 CREATE TABLE series (
-  id Integer PRIMARY KEY,
+  id INTEGER PRIMARY KEY,
   title TEXT,
   sub-genre TEXT,
 );
 
-CREATE TABLE
+CREATE TABLE sub-genre (id INTEGER PRIMARY KEY, name TEXT);
